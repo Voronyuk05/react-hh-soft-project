@@ -1,0 +1,16 @@
+
+.logo {
+    width: 213px;
+    z-index: 99;
+    @media screen and (max-width: 380px) {
+        width: 150px;
+    }
+}
+
+.logo_dark {
+    width: 213px;
+    z-index: 99;
+    @media screen and (max-width: 380px) {
+        width: 150px;
+    }
+}

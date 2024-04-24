@@ -1,0 +1,13 @@
+.content_page {
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../../images/short_bg.png');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and (max-width: 380px) {
+                background-image: url('../../../images/bg-secondary-mobile.png');
+        }
+}

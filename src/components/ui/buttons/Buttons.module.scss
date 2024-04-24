@@ -1,0 +1,127 @@
+
+.prime_button {
+    width: 260px;
+    height: 70px;
+    padding: 20px 34px 21px 34px;
+    border: #9166F0 solid 1px;
+    border-radius: 5px;   
+    outline: none;
+    background: rgba($color: #000000, $alpha: 0);
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #9166F0;
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s;
+        border: none;
+        background: linear-gradient(275.53deg, #210C51 8.77%, #9166F0 85.8%);
+        color: white;
+    }
+}
+
+.prime_button_inverse {
+    width: 260px;
+    height: 70px;
+    padding: 20px 34px 21px 34px;
+    border: none;
+    border-radius: 5px;   
+    outline: none;
+    color: white;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #633BBC 85.8%);
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s;
+        background: linear-gradient(275.53deg, #633BBC 8.77%, #9166F0 85.8%);
+    }
+}
+
+.close_button {
+  padding: 0px;
+  width: 25px;
+  height: 25px;
+  background: rgba($color: #000000, $alpha: 0);
+  border: none;
+}
+
+.cross_img {
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+.cases_button {
+    color: #9166F0;
+    background: rgba($color: #000000, $alpha: 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+    @media screen and (max-width: 380px) {
+        font-size: 16px;
+    }
+}
+
+.wrapper_arrow {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9166F0;
+    border-radius: 10px;
+    img {
+        transition: 0.5s;
+    }
+    @media screen and (max-width: 380px) {
+        width: 49px;
+        height: 49px;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+.secondary_button {
+    width: 250px;
+    height: 65px;
+    border-radius: 5px;
+    border: #BDBDBD 1px solid;
+    background: rgba($color: #000000, $alpha: 0);
+    color: #BDBDBD;
+    font-size: 20px;
+    font-weight: 500;
+    &:hover {    
+        border: #9166F0 1px solid;
+        color: #9166F0;
+    }
+}
+
+.secondary_button_active {
+    width: 250px;
+    height: 65px;
+    border-radius: 5px;
+    border: #9166F0 1px solid;
+    background: #9166F0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    &:hover {    
+        color: white;
+    }
+}

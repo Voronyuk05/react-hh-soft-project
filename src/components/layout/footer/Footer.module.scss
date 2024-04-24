@@ -1,0 +1,85 @@
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010423;
+}
+
+.container {
+    width: 98%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100vw;
+    height: 1px;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+}
+
+.footer_info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+    @media screen and (max-width: 380px) {
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+        img {
+            width: 60%;
+        }
+    }
+}
+
+.info_col {
+    display: flex;
+    flex-direction: column;
+    h6 {
+        opacity: 0.5;
+    }
+    @media screen and (max-width: 380px) {
+        align-items: center;
+        justify-content: center;
+        h6 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 22px;
+        }
+    }
+}
+
+.info_nav {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50px;
+    gap: 17%;
+    @media screen and (max-width: 380px) {
+        min-width: 0px;
+        width: 90%;
+        gap: 10px;
+    }
+}
+
+.footer_rights {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+    @media screen and (max-width: 380px) {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

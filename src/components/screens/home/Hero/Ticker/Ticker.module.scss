@@ -1,0 +1,44 @@
+
+.ticker {
+    position: absolute;
+    left: 0;
+    top: 46vw;
+    overflow: hidden;
+    @media screen and (max-width: 380px) {
+        top: 220vw;
+        z-index: 80;
+    }
+}
+
+.wrapper__tickers {
+    width: 200vw;
+    display: flex;
+    gap: 5px;
+    @media screen and (max-width: 380px) {
+        width: 600vw;
+    }
+}
+
+.ticker__item {
+    font-family: Ubuntu;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 0px;
+    animation: ticker 5s linear infinite;
+    color: rgba($color: #ffffff, $alpha: 0.3);
+    @media screen and (max-width: 380px) {
+        font-size: 3.9vw;
+    }
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateZ(0);
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}

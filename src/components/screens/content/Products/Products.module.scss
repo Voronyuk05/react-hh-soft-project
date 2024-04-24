@@ -1,0 +1,42 @@
+.products {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 380px) {
+      margin-top: 100px;
+    }
+}
+
+.container {
+  width: 95%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.products_categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  button {
+    width: initial;
+    padding: 0px 30px 0px 30px;
+  }
+} 
+
+.proucts_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+

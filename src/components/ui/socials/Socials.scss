@@ -1,0 +1,42 @@
+.wrapper-socials {
+    width: 200px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px #191919 solid;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}
+
+.vk_img {
+    z-index: 9;
+    top: 0px;
+    right: 100px;
+    background-color: #4F74A7;
+}
+
+.youtube_img {
+    z-index: 8;
+    top: 0px;
+    right: 60px;
+    background-color: #DB271E;
+}
+
+.telegram_img {
+    top: 0px;
+    right: 25px;
+    background-color: #51A0C1;
+}

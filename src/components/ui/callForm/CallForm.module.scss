@@ -1,0 +1,153 @@
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+
+.form_data {
+    max-width: 1400px;
+    width: 97%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    input {
+        width: 30%;
+    }
+    button {
+        width: 30%;
+    }
+    h6 {
+        width: 30%;
+        text-align: center;
+    }
+    @media screen and (max-width: 380px) {
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        input {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+        h6 {
+            width: 100%;
+        }
+    }
+}
+
+.text_area {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 65%;
+    height: 100%;
+    color: #5B5B5B;
+    font-size: 18px;
+    border: 1px solid #9166F0;
+    border-radius: 10px;
+    outline: none;
+    @media screen and (max-width: 380px) {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.wrapper_text {
+    max-width: 1400px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    h2 {
+        width: 60%;
+    }
+    @media screen and (max-width: 380px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        h2 {
+            width: 95%;
+            font-size: 25px;
+        }
+    }
+}
+
+.form_info {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    @media screen and (max-width: 380px) {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7%;
+    height: 70px;
+}
+
+.user_img {
+    width: 70px;
+}
+
+
+.wrapper_socials {
+    width: 200px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 15px;
+}
+
+.social {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px #191919 solid;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}
+
+.vk_img {
+    z-index: 9;
+    background-color: #4F74A7;
+}
+
+.youtube_img {
+    z-index: 8;
+    background-color: #DB271E;
+}
+
+.telegram_img {
+    background-color: #51A0C1;
+}
