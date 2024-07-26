@@ -15,7 +15,6 @@
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        height: 50vh;
         top: 0;
         left: 0;
 
@@ -32,7 +31,7 @@
 
 .socials_checked {
     transition: all 0.3s ease 0s;
-    transform: translateY(35%);
+    transform: translateY(310%);
     @media screen and (max-width: 380px) {
         height: 100px;
         transform: translateY(500%);

@@ -3,7 +3,8 @@ import { Logo } from '../../ui/logo/Logo'
 import { Navbar } from '../../ui/navbar/Navbar'
 import { SocialContacts } from '../../ui/socialContacts/SocialContacts'
 import { useState } from 'react'
-import { LogoDark } from '../../ui/logo/LogoDark';
+import { LogoDark } from '../../ui/logo/LogoDark'
+
 
 export const Header: React.FC = (): JSX.Element => {
     const [isChecked, setIsChecked] = useState(false)
